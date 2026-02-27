@@ -86,7 +86,7 @@ DeviceProcessEvents
 
 Searched for any indication the TOR browser was used to establish a connection using any of the known TOR ports. At `2026-02-22T03:21:49.5776154Z`, an employee on the "rich-vm" device successfully established a connection to the remote IP address `109.104.155.20` on port `9001`. The connection was initiated by the process `tor.exe`, located in the folder `c:\users\richm\desktop\tor browser\browser\torbrowser\tor\tor.exe`. There were a couple of other connections to sites over port `443`.
 
-**Query used to locate events:**
+**Query used to locate events:** 
 
 ```kql
 DeviceNetworkEvents
